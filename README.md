@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution Repo: [https://github.com/](https://github.com/)
+- Solution Repo: [github.com/joekotvas/stats-preview-card](https://github.com/joekotvas/stats-preview-card)
 - Live Site: [stats-preview-card-joekotvas.netlify.app](stats-preview-card-joekotvas.netlify.app)
 
 ## My process
