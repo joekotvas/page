@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.purple-shimmer {
+  -webkit-background-clip: text;
+  animation: shimmer 5s infinite linear;
+  background: linear-gradient(
+    90deg,
+    #b159e7 0%,
+    #cb80f8 25%,
+    #b560e8 50%,
+    #cb80f8 75%,
+    #b159e7 100%
+  );
+  background-clip: text;
+  background-size: 400% 400%;
+  color: transparent;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
